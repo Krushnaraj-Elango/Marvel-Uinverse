@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+#container{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 50px;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    height: 350px;
+    width: 750px; 
+    /* position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px;
+    margin-left: 10%;  */
+    /* margin-top: 25px; */
+    margin-left: 275px;
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 275px;
+    background-color: black;
+    width: 804px;
+}
+
+#hero p{
+  text-align: center;
+  color: greenyellow; 
+  margin-top: 5px;
+}
+#villain p{
+    text-align: center;
+    color: red;  
+    margin-top: 5px;
+}
+
+#hero{
+    margin-right: 50px;
+}
+
+#hero img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    border: 2px solid blue;
+}
+
+#villain img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    border: 2px solid red;
+}
+
+#hero td{
+    color: greenyellow;
+    text-align: center;
+}
+
+#villain td{
+    color: red;
+    text-align: center;
+}
